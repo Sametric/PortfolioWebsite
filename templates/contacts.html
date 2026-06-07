@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس با من</title>
+
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+
+<body>
+
+<nav>
+    <a href="/">خانه</a>
+</nav>
+
+<section>
+    <h1>تماس با من</h1>
+
+    <p>
+        برای ارتباط با من می‌توانید از طریق فرم زیر پیام خود را ارسال کنید.
+    </p>
+
+
+    <form method="post">
+
+        <label>نام:</label>
+
+        <br>
+
+        <input type="text" name="name" placeholder="نام شما">
+
+        <br><br>
+
+
+        <label>ایمیل:</label>
+
+        <br>
+
+        <input type="email" name="email" placeholder="example@gmail.com">
+
+        <br><br>
+
+        <lable>متن:</lable>
+
+        <br>
+
+        <textarea name="message"></textarea>
+
+        <br><br>
+
+        <button type="submit">
+            ارسال پیام
+        </button>
+
+
+    </form>
+</section>
+
+<footer>
+    امیرمحمد چمنی - درست شده در سال 1405
+</footer>
+
+
+</body>
+
+</html>
