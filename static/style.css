@@ -1,0 +1,222 @@
+/* تنظیمات کلی */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+    font-family: Tahoma, Arial, sans-serif;
+    background: #111827;
+    color: white;
+    text-align: center;
+    line-height: 1.8;
+
+}
+
+
+
+/* منو */
+
+nav {
+
+    background: #1f2937;
+    padding: 20px;
+
+}
+
+
+nav a {
+
+    color: #38bdf8;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+
+}
+
+
+nav a:hover {
+
+    color: white;
+
+}
+
+
+
+/* بخش اصلی */
+
+section {
+
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+
+    background: #1e293b;
+    padding: 30px;
+
+    border-radius: 20px;
+
+}
+
+
+
+/* عنوان ها */
+
+h1 {
+
+    color: #38bdf8;
+    font-size: 36px;
+
+}
+
+
+h2 {
+
+    color: #a5f3fc;
+
+}
+
+
+
+/* متن */
+
+p {
+
+    font-size: 18px;
+
+}
+
+
+
+/* کارت ها */
+
+.card {
+
+    background: #334155;
+
+    padding: 20px;
+
+    margin: 20px;
+
+    border-radius: 15px;
+
+}
+
+
+
+/* لیست مهارت ها */
+
+ul {
+
+    list-style: none;
+    padding: 0;
+
+}
+
+
+li {
+
+    background: #475569;
+
+    margin: 10px;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+}
+
+
+
+/* فرم تماس */
+
+input, textarea {
+
+    width: 80%;
+
+    max-width: 500px;
+
+    padding: 15px;
+
+    margin: 8px;
+
+    border-radius: 10px;
+
+    border: none;
+
+    font-size: 16px;
+
+}
+
+
+
+textarea {
+
+    height: 150px;
+
+    resize: none;
+
+}
+
+
+
+/* دکمه */
+
+button, .button {
+
+    display: inline-block;
+
+    background: #38bdf8;
+
+    color: #111827;
+
+    padding: 12px 30px;
+
+    border-radius: 25px;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 18px;
+
+    text-decoration: none;
+
+    margin-top: 15px;
+
+}
+
+
+
+button:hover, .button:hover {
+
+    background: white;
+
+}
+
+
+
+/* معرفی */
+
+.hero {
+
+    margin-top: 60px;
+
+}
+
+
+
+/* پایین صفحه */
+
+footer {
+
+    margin-top: 50px;
+
+    padding: 20px;
+
+    background: #0f172a;
+
+}
